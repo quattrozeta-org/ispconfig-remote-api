@@ -464,6 +464,7 @@ class SoapClient extends AbstractSoapClient
             'usertheme'       => $usertheme,
             'country'         => $country,
             'template_master' => $template_master,
+            'limit_cron_type' => 'url'
         ];
         return $this->makeCall('client_add', $this->getSessionId(), $resellerId, $params);
     }
