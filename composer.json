@@ -1,5 +1,5 @@
 {
-    "name": "gdm/ispconfig-soap-client",
+    "name": "quattrozeta/ispconfig-soap-client",
     "description": "A simple wrapper around ISPConfigs Remote API using Soap",
     "authors": [
         {
